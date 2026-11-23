@@ -9,7 +9,8 @@
 
 ## Головний пристрій
 
-- FYT на Unisoc UIS7862 (UMS512), Android 10 (API 29).
+- FYT на Unisoc UIS7862 (UMS512), Android 10 (API 29), екран 2000×1200.
+- CAN Protocol у «Про пристрій»: `G-Renault-RZ-61-0016-B2` (Raise, Renault).
 - Прошивка: кастомна збірка `gordgelin` на базі інтерфейсу Teyes:
   - root (Magisk) у ядрі — `/oem` можна перемонтувати в `rw` і замінювати APK через Wi-Fi ADB;
   - вимкнена перевірка підписів системних додатків (пропатчений `services.jar`);
