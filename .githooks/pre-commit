@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Не дає закомітити в публічний репо пропрієтарні файли та ідентифікатори.
+# Встановлення: tools/install_hooks.sh
+set -euo pipefail
+root="$(git rev-parse --show-toplevel)"
+exec python3 "$root/tools/public_guard.py" --staged --root "$root"
