@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "vehicle": {
+    "make": "Renault",
+    "model": "Megane",
+    "generation": "II Phase 2",
+    "years": "2006-2009",
+    "notes": "Зовнішня температура з'являється на мультимедійній шині лише при підключеному штатному верхньому дисплеї (AFFA2++/AFFA3). VIN шиною не передається."
+  },
+  "canbox": {
+    "vendor": "raise",
+    "fyt_callback": null
+  },
+  "status": "draft",
+  "frames": []
+}

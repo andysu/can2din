@@ -1,0 +1,29 @@
+# Образи та архіви прошивок — тільки локально або в хмарі, не в Git
+*.img
+*.bin
+*.zip
+*.tar.gz
+*.tgz
+
+# Пропрієтарні APK та їх декомпіляція (FYT/Teyes) — не публікуємо
+*.apk
+decompiled/
+dumps/
+work/
+
+# Сирі логи з авто можуть містити ідентифікатори
+*.log
+logs/
+
+# Вихідний хендофф містить VIN — у репозиторії лише знеособлені docs/
+project_handoff_*.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE / ОС
+.idea/
+.vscode/
+.DS_Store
